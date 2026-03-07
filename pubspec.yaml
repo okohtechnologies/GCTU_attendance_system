@@ -1,0 +1,28 @@
+name: gada_two
+description: Class rep attendance app
+publish_to: "none"
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management
+  flutter_riverpod: ^3.0.3
+
+  # Firebase
+  firebase_core: ^4.2.1
+  cloud_firestore: ^6.1.0
+
+  # Local storage (for caching logged-in rep and offline queue)
+  shared_preferences: ^2.1.1
+
+  # UI
+  flutter_svg: ^2.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
